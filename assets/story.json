@@ -1,0 +1,85 @@
+{
+  "data": [
+    {
+      "name": "My Story",
+      "image": "",
+      "isMyStory": true,
+      "isStoryAvailable": false,
+      "isStorySeen": false
+    },  {
+      "name": "Jack",
+      "image": "https://picsum.photos/200/300?random=1",
+      "isStorySeen": false
+    },
+    {
+      "name": "Sam",
+      "image": "https://picsum.photos/200/300?random=2",
+      "isStorySeen": false
+    },
+    {
+      "name": "Rex",
+      "image": "https://picsum.photos/200/300?random=3",
+      "isStorySeen": false
+    },
+    {
+      "name": "Max",
+      "image": "https://picsum.photos/200/300?random=4",
+      "isStorySeen": false
+    },
+    {
+      "name": "Jolly",
+      "image": "https://picsum.photos/200/300?random=5",
+      "isStorySeen": false
+    },
+    {
+      "name": "Amendasemil Strak",
+      "image": "https://picsum.photos/200/300?random=6",
+      "isStorySeen": false
+    },
+    {
+      "name": "Syrus",
+      "image": "https://picsum.photos/200/300?random=7",
+      "isStorySeen": false
+    },
+    {
+      "name": "Sinthxir Next",
+      "image": "https://picsum.photos/200/300?random=8",
+      "isStorySeen": false
+    },
+    {
+      "name": "Alon",
+      "image": "https://picsum.photos/200/300?random=9",
+      "isStorySeen": false
+    },
+    {
+      "name": "Alen",
+      "image": "https://picsum.photos/200/300?random=10",
+      "isStorySeen": false
+    },
+    {
+      "name": "Randu ourten",
+      "image": "https://picsum.photos/200/300?random=11",
+      "isStorySeen": false
+    },
+    {
+      "name": "Joe",
+      "image": "https://picsum.photos/200/300?random=12",
+      "isStorySeen": false
+    },
+    {
+      "name": "Paul",
+      "image": "https://picsum.photos/200/300?random=13",
+      "isStorySeen": false
+    },
+    {
+      "name": "Elon Er. junior",
+      "image": "https://picsum.photos/200/300?random=44",
+      "isStorySeen": false
+    },
+    {
+      "name": "Jeff",
+      "image": "https://picsum.photos/200/300?random=88",
+      "isStorySeen": false
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "data": [
+    {
+      "id": 0,
+      "caption": "if you do not have these social networks copy the link and paste it in the one you use. For more information read the",
+      "username": "Rex",
+      "dateTime": "September 21",
+      "location": "Jaipur, Rajasthan",
+      "profileImage": "https://picsum.photos/200/300?random=1",
+      "feedData": [
+        {
+          "url": "https://picsum.photos/200/300?random=115",
+          "type": "image"
+        },
+        {
+          "url": "https://picsum.photos/200/300?random=155",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "caption": "My Caption",
+      "username": "Wax",
+      "dateTime": "September 21",
+      "location": "Jaipur, Rajasthan",
+      "profileImage": "https://picsum.photos/200/300?random=58",
+      "feedData": [
+        {
+          "url": "https://picsum.photos/200/300?random=135",
+          "type": "image"
+        },
+        {
+          "url": "https://picsum.photos/200/300?random=175",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "caption": "My Caption",
+      "username": "Dax",
+      "dateTime": "September 21",
+      "location": "Jaipur, Rajasthan",
+      "profileImage": "https://picsum.photos/200/300?random=58",
+      "feedData": [
+        {
+          "url": "https://picsum.photos/200/300?random=15",
+          "type": "image"
+        }
+      ]
+    }
+  ]
+}

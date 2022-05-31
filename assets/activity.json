@@ -1,0 +1,194 @@
+
+{
+  "data": [
+    {
+      "time": "Now",
+      "is_grouped": false,
+      "activities": [
+        {
+        "post_id": 1,
+        "post_image": "https://picsum.photos/200/300?random=88",
+        "action": "like",
+        "action_by": {
+          "username": "Shankar",
+          "user_id": 1,
+          "isFollowing": false,
+          "profileImage": "https://picsum.photos/200/300?random=1"
+        },
+        "action_time": "3h"
+      },
+        {
+          "post_id": 1,
+          "post_image": "https://picsum.photos/200/300?random=88",
+          "action": "like",
+          "action_by": {
+            "username": "Uttam Roy",
+            "user_id": 2,
+            "isFollowing": true,
+            "profileImage": "https://picsum.photos/200/300?random=2"
+          },
+          "action_time": "3h"
+        },
+        {
+          "post_id": 2,
+          "post_image": "https://picsum.photos/200/300?random=83",
+          "action": "comment",
+          "action_by": {
+            "username": "Shanti Roy",
+            "user_id": 3,
+            "isFollowing": false,
+            "profileImage": "https://picsum.photos/200/300?random=48"
+          },
+          "action_time": "3h"
+        },
+        {
+          "action": "followed",
+          "action_by": {
+            "username": "Shaunty Roy",
+            "user_id": 3,
+            "isFollowing": true,
+            "profileImage": "https://picsum.photos/200/300?random=48"
+          },
+          "action_time": "3h"
+        },
+        {
+          "action": "followed",
+          "action_by": {
+            "username": "Uttam Roy",
+            "user_id": 2,
+            "isFollowing": true,
+            "profileImage": "https://picsum.photos/200/300?random=2"
+          },
+          "action_time": "3h"
+        }, {
+          "action": "followed",
+          "action_by": {
+            "username": "Rax",
+            "user_id": 5,
+            "isFollowing": false,
+            "profileImage": "https://picsum.photos/200/300?random=898"
+          },
+          "action_time": "3h"
+        }
+      ]
+    },
+    {
+      "time": "This Week",
+      "is_grouped": true,
+      "activities": [
+        {
+          "post_id": 1,
+          "post_image": "https://picsum.photos/200/300?random=88",
+          "action": "like",
+          "action_by": {
+            "username": "Shankar",
+            "user_id": 1,
+            "isFollowing": true,
+            "profileImage": "https://picsum.photos/200/300?random=1"
+          },
+          "action_time": "3h"
+        },
+        {
+          "post_id": 1,
+          "post_image": "https://picsum.photos/200/300?random=88",
+          "action": "like",
+          "action_by": {
+            "username": "Uttam Roy",
+            "user_id": 2,
+            "isFollowing": false,
+            "profileImage": "https://picsum.photos/200/300?random=2"
+          },
+          "action_time": "3h"
+        },
+        {
+          "post_id": 2,
+          "post_image": "https://picsum.photos/200/300?random=83",
+          "action": "comment",
+          "action_by": {
+            "username": "Shanti Roy",
+            "user_id": 3,
+            "isFollowing": true,
+            "profileImage": "https://picsum.photos/200/300?random=48"
+          },
+          "action_time": "3h"
+        },
+        {
+          "action": "followed",
+          "action_by": {
+            "username": "Shanti Roy",
+            "user_id": 3,
+            "isFollowing": false,
+            "profileImage": "https://picsum.photos/200/300?random=48"
+          },
+          "action_time": "3h"
+        },
+        {
+          "action": "followed",
+          "action_by": {
+            "username": "Uttam Roy",
+            "user_id": 2,
+            "isFollowing": true,
+            "profileImage": "https://picsum.photos/200/300?random=2"
+          },
+          "action_time": "3h"
+        },
+        {
+          "action": "followed",
+          "action_by": {
+            "username": "Rax",
+            "user_id": 5,
+            "isFollowing": false,
+            "profileImage": "https://picsum.photos/200/300?random=898"
+          },
+          "action_time": "3h"
+        }
+      ]
+    },
+    {
+      "time": "This Month",
+      "is_grouped": false,
+      "activities": [
+        {
+          "action": "followed",
+          "action_by": {
+            "username": "Shanti Roy",
+            "user_id": 3,
+            "isFollowing": true,
+            "profileImage": "https://picsum.photos/200/300?random=48"
+          },
+          "action_time": "3h"
+        },
+        {
+          "action": "followed",
+          "action_by": {
+            "username": "Uttam Roy",
+            "user_id": 2,
+            "isFollowing": true,
+            "profileImage": "https://picsum.photos/200/300?random=2"
+          },
+          "action_time": "3h"
+        },
+        {
+          "action": "followed",
+          "action_by": {
+            "username": "Rax",
+            "user_id": 5,
+            "isFollowing": false,
+            "profileImage": "https://picsum.photos/200/300?random=898"
+          },
+          "action_time": "3h"
+        },
+        {
+          "action": "followed",
+          "action_by": {
+            "username": "Mex",
+            "user_id": 9,
+            "isFollowing": true,
+            "profileImage": "https://picsum.photos/200/300?random=877"
+          },
+          "action_time": "3h"
+        }
+      ]
+    }
+  ]
+}
