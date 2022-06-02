@@ -2,10 +2,13 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:lzycrazy/constant/app_assets.dart';
+import 'package:lzycrazy/models/reel_model.dart';
 import 'package:lzycrazy/utils/size_config.dart';
 
 class ReelPage extends StatelessWidget {
-  const ReelPage({Key? key}) : super(key: key);
+  ReelModel reel;
+
+  ReelPage(this.reel, {Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -59,10 +62,10 @@ class ReelPage extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: <Widget>[
                         _buttonWitnNumbers(
-                            icon: AppAssets.heart, value: "256k", onTap: () {}),
+                            icon: AppAssets.heart, value: reel.likes!.length.toString(), onTap: () {}),
                         _buttonWitnNumbers(
                             icon: AppAssets.comment,
-                            value: "56k",
+                            value: reel.comments!.length.toString(),
                             onTap: () {}),
                         _buttonWitnNumbers(
                             icon: AppAssets.sendMessage,
@@ -122,63 +125,78 @@ class ReelPage extends StatelessWidget {
 
   Widget _userDetails() {
     return Container(
-      child: Row(
-        children: <Widget>[
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.end,
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            children: <Widget>[
 
-          Container(
-            decoration: BoxDecoration(
-                gradient: const LinearGradient(colors: [
-                  Colors.pink,
-                  Colors.red,
-                  Colors.orange,
-                  Colors.yellow
-                ], begin: Alignment.topCenter, end: Alignment.bottomCenter),
-                borderRadius: BorderRadius.circular(50)),
-            height: 68,
-            width: 68,
-            clipBehavior: Clip.antiAliasWithSaveLayer,
-            alignment: Alignment.center,
-            padding: const EdgeInsets.all(3),
-            child: Container(
+              Container(
+                decoration: BoxDecoration(
+                    gradient: const LinearGradient(colors: [
+                      Colors.pink,
+                      Colors.red,
+                      Colors.orange,
+                      Colors.yellow
+                    ], begin: Alignment.topCenter, end: Alignment.bottomCenter),
+                    borderRadius: BorderRadius.circular(50)),
+                height: 68,
+                width: 68,
                 clipBehavior: Clip.antiAliasWithSaveLayer,
-                decoration: const ShapeDecoration(
-                  shape: CircleBorder(
-                      side: BorderSide(width: 1, color: Colors.white)),
-                ),
                 alignment: Alignment.center,
-                child: ClipOval(
-                  child: SizedBox.fromSize(
-                    size: const Size.fromRadius(68),
-                    child: CachedNetworkImage(
-                      imageUrl:"https://picsum.photos/200/300?random=9",
-                      fit: BoxFit.fill,
-                      height: 68,
-                      width: 68,
+                padding: const EdgeInsets.all(3),
+                child: Container(
+                    clipBehavior: Clip.antiAliasWithSaveLayer,
+                    decoration: const ShapeDecoration(
+                      shape: CircleBorder(
+                          side: BorderSide(width: 1, color: Colors.white)),
+                    ),
+                    alignment: Alignment.center,
+                    child: ClipOval(
+                      child: SizedBox.fromSize(
+                        size: const Size.fromRadius(68),
+                        child: CachedNetworkImage(
+                          imageUrl:"https://picsum.photos/200/300?random=9",
+                          fit: BoxFit.fill,
+                          height: 68,
+                          width: 68,
+                        ),
+                      ),
+                    )),
+              ),
+              const SizedBox(width: 8),
+              Column(
+                mainAxisSize: MainAxisSize.min,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children:const  [
+                  Text(
+                   "Ram Lal",
+                    style:
+                     TextStyle(fontWeight: FontWeight.w600, fontSize: 18,color: Colors.white),
+                  ),
+                   SizedBox(height: 6),
+                  Text(
+                    "song is nothing",
+                    style:  TextStyle(
+                      fontSize: 16,color: Colors.white
                     ),
                   ),
-                )),
-          ),
-          const SizedBox(width: 8),
-          Column(
-            mainAxisSize: MainAxisSize.min,
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children:const  [
-              Text(
-               "Ram Lal",
-                style:
-                 TextStyle(fontWeight: FontWeight.w600, fontSize: 18,color: Colors.white),
+                ],
               ),
-               SizedBox(height: 6),
-              Text(
-                "song is nothing",
-                style:  TextStyle(
-                  fontSize: 16,color: Colors.white
-                ),
-              ),
+
+
             ],
           ),
-
-
+          Padding(
+            padding: const EdgeInsets.only(top: 8.0),
+            child: Text(
+              reel!.caption??"",
+              style:  TextStyle(
+                  fontSize: 16,color: Colors.white
+              ),
+            ),
+          ),
         ],
       ),
       padding: const EdgeInsets.symmetric(horizontal: 16,vertical: 16),

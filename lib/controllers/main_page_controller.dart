@@ -20,7 +20,7 @@ class MainPageController extends GetxController{
 
   List<Widget> screens=[
     HomeScreen(),
-    const ReelsScreen(),
+    ReelsScreen(),
     const StoreScreen(),
      ActivityScreen(),
      UserProfile(),
