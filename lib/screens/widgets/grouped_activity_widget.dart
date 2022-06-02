@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:projects/models/activity_model.dart';
+import 'package:lzycrazy/models/activity_model.dart';
 
 class GroupedActivityWidget extends StatelessWidget {
 

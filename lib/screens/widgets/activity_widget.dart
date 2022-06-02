@@ -1,6 +1,6 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:projects/models/activity_model.dart';
+import 'package:lzycrazy/models/activity_model.dart';
 
 import 'circle_profile_pic.dart';
 

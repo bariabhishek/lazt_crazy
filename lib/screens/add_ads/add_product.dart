@@ -3,9 +3,9 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:photo_gallery/photo_gallery.dart';
-import 'package:projects/controllers/create_ad_controller.dart';
-import 'package:projects/screens/widgets/custom_button.dart';
-import 'package:projects/screens/widgets/custom_text_filed.dart';
+import 'package:lzycrazy/controllers/create_ad_controller.dart';
+import 'package:lzycrazy/screens/widgets/custom_button.dart';
+import 'package:lzycrazy/screens/widgets/custom_text_filed.dart';
 import 'package:transparent_image/transparent_image.dart';
 import 'package:video_player/video_player.dart';
 

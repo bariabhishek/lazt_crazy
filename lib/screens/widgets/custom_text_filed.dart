@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
-import 'package:projects/constant/app_theme.dart';
-import 'package:projects/utils/size_config.dart';
+import 'package:lzycrazy/constant/app_theme.dart';
+import 'package:lzycrazy/utils/size_config.dart';
 
 class CommonTextField extends StatelessWidget {
   final TextEditingController controller;
@@ -13,6 +13,7 @@ class CommonTextField extends StatelessWidget {
   final bool enabled;
   final Widget? prefix;
   VoidCallback? onIconTap;
+  VoidCallback? onTap;
   FormFieldValidator<String>? onValidate;
   ValueChanged<String>? onChange;
 
@@ -25,6 +26,7 @@ class CommonTextField extends StatelessWidget {
       this.prefix,
       this.onChange,
       this.onIconTap,
+      this.onTap,
       this.keyboardType});
 
   @override
@@ -34,6 +36,7 @@ class CommonTextField extends StatelessWidget {
           height: SizeConfig.height * 6,
           child: Center(
             child: TextFormField(
+              onTap: onTap,
               enabled: enabled,
               controller: controller,
               obscureText:
@@ -57,7 +60,7 @@ class CommonTextField extends StatelessWidget {
                             isShowPassword.value = !isShowPassword.value;
                           },
                           icon: Icon(
-                            isShowPassword.value
+                            !isShowPassword.value
                                 ? FontAwesomeIcons.eyeSlash
                                 : FontAwesomeIcons.eye,
                             color: AppTheme.accentColor,

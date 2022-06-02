@@ -2,11 +2,11 @@
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:projects/screens/activity/activity_screen.dart';
-import 'package:projects/screens/home/home_screen.dart';
-import 'package:projects/screens/profile/user_profile.dart';
-import 'package:projects/screens/reel/reels_screen.dart';
-import 'package:projects/screens/store/store_screen.dart';
+import 'package:lzycrazy/screens/activity/activity_screen.dart';
+import 'package:lzycrazy/screens/home/home_screen.dart';
+import 'package:lzycrazy/screens/profile/user_profile.dart';
+import 'package:lzycrazy/screens/reel/reels_screen.dart';
+import 'package:lzycrazy/screens/store/store_screen.dart';
 
 class MainPageController extends GetxController{
 

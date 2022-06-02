@@ -1,8 +1,8 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:projects/constant/app_assets.dart';
-import 'package:projects/utils/size_config.dart';
+import 'package:lzycrazy/constant/app_assets.dart';
+import 'package:lzycrazy/utils/size_config.dart';
 
 class ReelPage extends StatelessWidget {
   const ReelPage({Key? key}) : super(key: key);

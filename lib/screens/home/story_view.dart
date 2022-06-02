@@ -1,6 +1,6 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:projects/utils/size_config.dart';
+import 'package:lzycrazy/utils/size_config.dart';
 import 'package:story/story_page_view/story_page_view.dart';
 
 class StoryView extends StatelessWidget {

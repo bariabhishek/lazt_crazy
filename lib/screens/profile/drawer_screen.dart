@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:projects/constant/app_assets.dart';
-import 'package:projects/screens/widgets/circle_profile_pic.dart';
-import 'package:projects/utils/size_config.dart';
+import 'package:lzycrazy/constant/app_assets.dart';
+import 'package:lzycrazy/screens/widgets/circle_profile_pic.dart';
+import 'package:lzycrazy/utils/size_config.dart';
 
 class DrawerScreen extends StatelessWidget {
   const DrawerScreen({Key? key}) : super(key: key);

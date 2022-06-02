@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:projects/screens/widgets/custom_text_filed.dart';
-import 'package:projects/screens/widgets/store_item.dart';
+import 'package:lzycrazy/screens/widgets/custom_text_filed.dart';
+import 'package:lzycrazy/screens/widgets/store_item.dart';
 
 class StoreScreen extends StatelessWidget {
   const StoreScreen({Key? key}) : super(key: key);

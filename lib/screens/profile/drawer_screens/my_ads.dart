@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:projects/screens/widgets/my_store_item.dart';
-import 'package:projects/utils/size_config.dart';
+import 'package:lzycrazy/screens/widgets/my_store_item.dart';
+import 'package:lzycrazy/utils/size_config.dart';
 
 class MyAdsScreen extends StatelessWidget {
   const MyAdsScreen({Key? key}) : super(key: key);

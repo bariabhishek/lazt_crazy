@@ -1,13 +1,14 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:projects/constant/app_assets.dart';
-import 'package:projects/constant/app_theme.dart';
-import 'package:projects/screens/widgets/circle_profile_pic.dart';
-import 'package:projects/utils/size_config.dart';
+import 'package:lzycrazy/constant/app_assets.dart';
+import 'package:lzycrazy/constant/app_theme.dart';
+import 'package:lzycrazy/screens/widgets/circle_profile_pic.dart';
+import 'package:lzycrazy/utils/size_config.dart';
 
 import 'drawer_screen.dart';
 import 'profile_posts.dart';
+import 'package:lzycrazy/controllers/user_controller.dart';
 
 class UserProfile extends StatelessWidget {
   UserProfile({Key? key}) : super(key: key);
@@ -38,8 +39,8 @@ class UserProfile extends StatelessWidget {
                 size: 70,
               ),
               const SizedBox(height: 12),
-              const Text(
-                "Ravish",
+              Text(
+                "${user!.value.user['name']}",
                 style: TextStyle(fontWeight: FontWeight.w900, fontSize: 30),
               ),
               const SizedBox(height: 4),

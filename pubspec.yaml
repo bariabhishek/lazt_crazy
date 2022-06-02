@@ -1,7 +1,7 @@
-name: projects
+name: lzycrazy
 description: A new Flutter project.
 
-publish_to: 'none' 
+publish_to: 'none'
 
 
 version: 1.0.0+1
@@ -16,7 +16,7 @@ dependencies:
   get: ^4.6.1
 
 
-#  network
+  #  network
   http: ^0.13.4
   dio: ^4.0.6
   retrofit: ^3.0.1+1
@@ -34,7 +34,10 @@ dependencies:
   photo_gallery: ^1.1.1
   transparent_image: ^2.0.0
   video_player: ^2.2.18
-
+  mvc_pattern:
+  shared_preferences:
+  flutter_progress_hud: ^2.0.2
+  fluttertoast:
 
 
 
@@ -61,25 +64,24 @@ flutter:
 
 
 
-  
-  
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

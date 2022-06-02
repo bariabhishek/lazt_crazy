@@ -2,10 +2,10 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
-import 'package:projects/constant/app_assets.dart';
-import 'package:projects/models/feed_model.dart';
-import 'package:projects/screens/home/feed_more_bottomsheet.dart';
-import 'package:projects/utils/size_config.dart';
+import 'package:lzycrazy/constant/app_assets.dart';
+import 'package:lzycrazy/models/feed_model.dart';
+import 'package:lzycrazy/screens/home/feed_more_bottomsheet.dart';
+import 'package:lzycrazy/utils/size_config.dart';
 
 class FeedWidget extends StatelessWidget {
   FeedModel feedList;

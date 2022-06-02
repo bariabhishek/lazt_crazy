@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:projects/constant/app_assets.dart';
-import 'package:projects/controllers/splash_controller.dart';
-import 'package:projects/utils/size_config.dart';
+import 'package:lzycrazy/constant/app_assets.dart';
+import 'package:lzycrazy/controllers/splash_controller.dart';
+import 'package:lzycrazy/utils/size_config.dart';
 
 class SplashScreen extends StatelessWidget {
    SplashScreen({Key? key}) : super(key: key);

@@ -3,9 +3,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
-import 'package:projects/constant/app_assets.dart';
-import 'package:projects/constant/app_theme.dart';
-import 'package:projects/controllers/main_page_controller.dart';
+import 'package:lzycrazy/constant/app_assets.dart';
+import 'package:lzycrazy/constant/app_theme.dart';
+import 'package:lzycrazy/controllers/main_page_controller.dart';
 
 class CustomBottomNavigation extends StatelessWidget {
   CustomBottomNavigation({Key? key}) : super(key: key);

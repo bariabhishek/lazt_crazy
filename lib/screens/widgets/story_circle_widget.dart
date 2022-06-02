@@ -1,8 +1,8 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:projects/models/story_model.dart';
-import 'package:projects/screens/widgets/add_story_widget.dart';
+import 'package:lzycrazy/models/story_model.dart';
+import 'package:lzycrazy/screens/widgets/add_story_widget.dart';
 
 class StoryCircleWidget extends StatelessWidget {
   StoryModel storyList;

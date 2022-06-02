@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
-import 'package:projects/constant/app_theme.dart';
-import 'package:projects/utils/size_config.dart';
+import 'package:lzycrazy/constant/app_theme.dart';
+import 'package:lzycrazy/utils/size_config.dart';
 import 'package:responsive_framework/responsive_framework.dart';
 
 import 'controllers/controller_binding.dart';
@@ -47,7 +47,7 @@ class MyApp extends StatelessWidget {
           accentColor: AppTheme.accentColor,
         ),
       ),
-        initialRoute: '/main_page',
+        initialRoute: '/login',
         getPages: Routes.routes
     );
   }

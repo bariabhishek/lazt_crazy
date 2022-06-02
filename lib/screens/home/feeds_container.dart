@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:projects/controllers/home_controller.dart';
-import 'package:projects/screens/widgets/feed_widget.dart';
+import 'package:lzycrazy/controllers/home_controller.dart';
+import 'package:lzycrazy/screens/widgets/feed_widget.dart';
 class FeedsContainer extends StatelessWidget {
    FeedsContainer({Key? key}) : super(key: key);
   var hmc= Get.find<HomeController>();

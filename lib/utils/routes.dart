@@ -1,20 +1,20 @@
 import 'package:get/get.dart';
-import 'package:projects/screens/add_ads/add_images.dart';
-import 'package:projects/screens/add_ads/add_product.dart';
-import 'package:projects/screens/add_ads/review_upload_post.dart';
-import 'package:projects/screens/add_ads/select_ad_catergory.dart';
-import 'package:projects/screens/add_ads/set_price_location.dart';
-import 'package:projects/screens/auth/email_verification.dart';
-import 'package:projects/screens/auth/forgot_password.dart';
-import 'package:projects/screens/auth/sign_up_screen.dart';
-import 'package:projects/screens/auth/selection_screen.dart';
-import 'package:projects/screens/auth/login.dart';
-import 'package:projects/screens/home/story_view.dart';
-import 'package:projects/screens/mainPages/main_page.dart';
-import 'package:projects/screens/profile/drawer_screens/my_activities.dart';
-import 'package:projects/screens/profile/drawer_screens/my_ads.dart';
-import 'package:projects/screens/profile/drawer_screens/saved/my_saved.dart';
-import 'package:projects/screens/splashScreen/splash_screen.dart';
+import 'package:lzycrazy/screens/add_ads/add_images.dart';
+import 'package:lzycrazy/screens/add_ads/add_product.dart';
+import 'package:lzycrazy/screens/add_ads/review_upload_post.dart';
+import 'package:lzycrazy/screens/add_ads/select_ad_catergory.dart';
+import 'package:lzycrazy/screens/add_ads/set_price_location.dart';
+import 'package:lzycrazy/screens/auth/email_verification.dart';
+import 'package:lzycrazy/screens/auth/forgot_password.dart';
+import 'package:lzycrazy/screens/auth/sign_up_screen.dart';
+import 'package:lzycrazy/screens/auth/selection_screen.dart';
+import 'package:lzycrazy/screens/auth/login.dart';
+import 'package:lzycrazy/screens/home/story_view.dart';
+import 'package:lzycrazy/screens/mainPages/main_page.dart';
+import 'package:lzycrazy/screens/profile/drawer_screens/my_activities.dart';
+import 'package:lzycrazy/screens/profile/drawer_screens/my_ads.dart';
+import 'package:lzycrazy/screens/profile/drawer_screens/saved/my_saved.dart';
+import 'package:lzycrazy/screens/splashScreen/splash_screen.dart';
 
 import '../screens/profile/edit_profile.dart';
 

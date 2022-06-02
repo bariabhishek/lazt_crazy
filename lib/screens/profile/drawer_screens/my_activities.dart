@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:get/get.dart';
-import 'package:projects/constant/app_theme.dart';
-import 'package:projects/controllers/activity_controller.dart';
-import 'package:projects/models/activity_model.dart';
-import 'package:projects/screens/widgets/activity_widget.dart';
-import 'package:projects/utils/size_config.dart';
+import 'package:lzycrazy/constant/app_theme.dart';
+import 'package:lzycrazy/controllers/activity_controller.dart';
+import 'package:lzycrazy/models/activity_model.dart';
+import 'package:lzycrazy/screens/widgets/activity_widget.dart';
+import 'package:lzycrazy/utils/size_config.dart';
 
 class MyActivitiesScreen extends StatelessWidget {
   MyActivitiesScreen({Key? key}) : super(key: key);

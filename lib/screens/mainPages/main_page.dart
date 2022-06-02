@@ -2,11 +2,11 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
-import 'package:projects/constant/app_assets.dart';
-import 'package:projects/constant/app_theme.dart';
-import 'package:projects/controllers/main_page_controller.dart';
-import 'package:projects/screens/mainPages/bottom_navigation.dart';
-import 'package:projects/utils/size_config.dart';
+import 'package:lzycrazy/constant/app_assets.dart';
+import 'package:lzycrazy/constant/app_theme.dart';
+import 'package:lzycrazy/controllers/main_page_controller.dart';
+import 'package:lzycrazy/screens/mainPages/bottom_navigation.dart';
+import 'package:lzycrazy/utils/size_config.dart';
 
 class MainPage extends StatelessWidget {
   const MainPage({Key? key}) : super(key: key);

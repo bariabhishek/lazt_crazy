@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:get/get.dart';
-import 'package:projects/constant/app_assets.dart';
-import 'package:projects/constant/app_theme.dart';
-import 'package:projects/controllers/home_controller.dart';
-import 'package:projects/screens/home/feeds_container.dart';
-import 'package:projects/screens/home/story_container.dart';
-import 'package:projects/utils/size_config.dart';
+import 'package:lzycrazy/constant/app_assets.dart';
+import 'package:lzycrazy/constant/app_theme.dart';
+import 'package:lzycrazy/controllers/home_controller.dart';
+import 'package:lzycrazy/screens/home/feeds_container.dart';
+import 'package:lzycrazy/screens/home/story_container.dart';
+import 'package:lzycrazy/utils/size_config.dart';
 
 class HomeScreen extends StatelessWidget {
   HomeScreen({Key? key}) : super(key: key);

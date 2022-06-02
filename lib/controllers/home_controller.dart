@@ -1,12 +1,10 @@
 
-
-
 import 'dart:convert';
 
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
-import 'package:projects/models/feed_model.dart';
-import 'package:projects/models/story_model.dart';
+import 'package:lzycrazy/models/feed_model.dart';
+import 'package:lzycrazy/models/story_model.dart';
 
 class HomeController extends GetxController {
   List<StoryModel>storyList =[];

@@ -1,8 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:projects/screens/widgets/circle_profile_pic.dart';
-import 'package:projects/utils/size_config.dart';
+import 'package:lzycrazy/screens/widgets/circle_profile_pic.dart';
+import 'package:lzycrazy/utils/size_config.dart';
+import 'package:lzycrazy/controllers/user_controller.dart';
 
 class EditProfile extends StatelessWidget {
   const EditProfile({Key? key}) : super(key: key);
@@ -74,7 +75,7 @@ class EditProfile extends StatelessWidget {
               _editTile(
                 title: "Name",
                 controller: TextEditingController(
-                  text: "Ravish",
+                  text: "${user!.value.user['name']}",
                 ),
               ),
               const SizedBox(
@@ -83,7 +84,7 @@ class EditProfile extends StatelessWidget {
               _editTile(
                 title: "Username",
                 controller: TextEditingController(
-                  text: "_ravi_jangid",
+                  text: "${user!.value.user['name']}",
                 ),
               ),
               const SizedBox(
@@ -125,7 +126,7 @@ class EditProfile extends StatelessWidget {
                 title: "Email",
                 controller: TextEditingController(
                   text:
-                  "ravijangid207@gmail.com",
+                  "${user!.value.user['email']}",
                 ),
               ),
               const SizedBox(
@@ -134,7 +135,7 @@ class EditProfile extends StatelessWidget {
                 title: "Gander",
                 controller: TextEditingController(
                   text:
-                  "Male",
+                  "${user!.value.user['gender']}",
                 ),
               ),
               const SizedBox(

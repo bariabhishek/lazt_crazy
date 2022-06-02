@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:projects/controllers/home_controller.dart';
-import 'package:projects/screens/widgets/story_circle_widget.dart';
-import 'package:projects/utils/size_config.dart';
+import 'package:lzycrazy/controllers/home_controller.dart';
+import 'package:lzycrazy/screens/widgets/story_circle_widget.dart';
+import 'package:lzycrazy/utils/size_config.dart';
 
 class StoryContainer extends StatelessWidget {
    StoryContainer({Key? key}) : super(key: key);

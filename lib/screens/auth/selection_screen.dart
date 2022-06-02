@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:projects/constant/app_assets.dart';
-import 'package:projects/screens/widgets/custom_button.dart';
-import 'package:projects/screens/widgets/custom_outlined_button.dart';
-import 'package:projects/utils/size_config.dart';
+import 'package:lzycrazy/constant/app_assets.dart';
+import 'package:lzycrazy/screens/widgets/custom_button.dart';
+import 'package:lzycrazy/screens/widgets/custom_outlined_button.dart';
+import 'package:lzycrazy/utils/size_config.dart';
 
 class SelectionScreen extends StatelessWidget {
   const SelectionScreen({Key? key}) : super(key: key);

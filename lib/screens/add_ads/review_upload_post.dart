@@ -2,9 +2,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
-import 'package:projects/controllers/create_ad_controller.dart';
-import 'package:projects/controllers/main_page_controller.dart';
-import 'package:projects/screens/widgets/custom_button.dart';
+import 'package:lzycrazy/controllers/create_ad_controller.dart';
+import 'package:lzycrazy/controllers/main_page_controller.dart';
+import 'package:lzycrazy/screens/widgets/custom_button.dart';
 
 class ReviewNUpload extends StatelessWidget {
   ReviewNUpload({Key? key}) : super(key: key);

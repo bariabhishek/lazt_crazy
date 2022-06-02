@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:projects/constant/app_theme.dart';
-import 'package:projects/screens/widgets/custom_button.dart';
-import 'package:projects/screens/widgets/custom_text_filed.dart';
-import 'package:projects/utils/size_config.dart';
+import 'package:lzycrazy/constant/app_theme.dart';
+import 'package:lzycrazy/screens/widgets/custom_button.dart';
+import 'package:lzycrazy/screens/widgets/custom_text_filed.dart';
+import 'package:lzycrazy/utils/size_config.dart';
 
 class EmailVerificationScreen extends StatelessWidget {
   const EmailVerificationScreen({Key? key}) : super(key: key);

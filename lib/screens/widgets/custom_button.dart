@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:projects/constant/app_theme.dart';
-import 'package:projects/utils/size_config.dart';
+import 'package:lzycrazy/constant/app_theme.dart';
+import 'package:lzycrazy/utils/size_config.dart';
 
 class CustomButton extends StatelessWidget {
   VoidCallback onPressed;

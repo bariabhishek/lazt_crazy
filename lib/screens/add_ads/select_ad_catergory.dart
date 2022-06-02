@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:projects/controllers/create_ad_controller.dart';
+import 'package:lzycrazy/controllers/create_ad_controller.dart';
 
 class SelectAdCategory extends StatelessWidget {
   SelectAdCategory({Key? key}) : super(key: key);

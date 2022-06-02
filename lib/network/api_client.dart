@@ -4,7 +4,7 @@ import 'dart:io';
 import 'package:http/http.dart' as http;
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
-import 'package:projects/network/url.dart';
+import 'package:lzycrazy/network/url.dart';
 import 'package:retrofit/retrofit.dart';
 import 'dart:convert';
 

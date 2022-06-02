@@ -1,10 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:projects/constant/app_assets.dart';
-import 'package:projects/constant/app_theme.dart';
-import 'package:projects/screens/profile/profile_posts.dart';
-import 'package:projects/screens/widgets/my_store_item.dart';
-import 'package:projects/utils/size_config.dart';
+import 'package:lzycrazy/constant/app_assets.dart';
+import 'package:lzycrazy/constant/app_theme.dart';
+import 'package:lzycrazy/screens/profile/profile_posts.dart';
+import 'package:lzycrazy/screens/widgets/my_store_item.dart';
+import 'package:lzycrazy/utils/size_config.dart';
 
 class SavedScreen extends StatelessWidget {
   const SavedScreen({Key? key}) : super(key: key);
